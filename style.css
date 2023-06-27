@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgoldenrodyellow;
+}
+
+.container {
+  margin-top: 220px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.container h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.btn {
+  border-radius: 0.5rem;
+  box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.823);
+  font-size: 1.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
